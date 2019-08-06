@@ -54,6 +54,7 @@ apps:
     command: usr/bin/gnome-calculator
     extensions: [gnome-3-28]
     plugs:
+      - gsettings
       - network
     desktop: usr/share/applications/org.gnome.Calculator.desktop
     environment:
